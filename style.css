@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+ body{
+  background-color: #343434;
+} 
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 30px;
+}
+
+ul>li{
+  display: inline;
+  padding: 0px 20px;
+  color: #fff;
+}
+
+.list>li:first-child{
+  font-weight: bold;
+}
+
+.list>li:not(:first-child){
+  opacity: 0.33;
+}
+
+img.logo{
+  margin-left: 70px;
+}
+button{
+position: absolute;
+right:220px;
+top: 30px;
+padding: 10px 20px;
+border-color: #7fffd4;
+background: none;
+color: #7fffd4;
+border-radius: 10px;
+}
+.section{
+  background-color: #343434;
+}
+.hero>h1{
+  margin-top: 50px;
+  margin-left: 110px;
+  float: left;
+  font-size: 70px;
+    width: 581px;
+  color: #fff;
+}
+.hero>p{
+  float: right;
+    width: 537px;
+    font-size: 23px;
+    margin-right: 180px;
+    color: #fff;
+    margin-top: 80px;
+    opacity: 0.33;
+}
+
+.bottom{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: right;
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 10px;
+}
+
+.button-large-prev, .button-large-next{
+  font-size: 40px;
+  align-items: center;
+  position: relative;
+  left: -37px;
+  top: 20px;
+  filter: brightness(0) invert(1);
+}
+
+.circle{
+  height: 50px;
+  display: block;
+  position: relative;
+  top: 20px;
+  filter: brightness(0) invert(1);
+}
+
+
+div.justiceimg{
+  background-image: url("./assets/justice-img.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 62.5vh;
+  margin-top: 240px; 
+  margin-bottom: 30px;
+}
